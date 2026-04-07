@@ -24,7 +24,7 @@ func main() {
 		fmt.Println("Number is odd")
 	}
 
-	if num := 13; num < 10 {
+	if num := 3; num < 10 {
 		fmt.Println("Num is less than 10")
 	} else {
 		fmt.Println("Number is not less than 10")

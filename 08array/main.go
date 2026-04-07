@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	fmt.Println("Welcome to array in Golang")
@@ -15,5 +18,6 @@ func main() {
 
 	var vegList = [5]string{"potato", "beans", "mushroom"}
 	fmt.Println("Vegetables - ", vegList)
+	fmt.Println("Vegetables - ", strings.Join(vegList[:], ", "))
 	fmt.Println("Vegetables array length- ", len(vegList))
 }

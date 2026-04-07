@@ -11,7 +11,7 @@ func main() {
 	myNumber := 23
 
 	var ptr = &myNumber
-	fmt.Println("value of pointer is ", ptr)
+	fmt.Println("address of pointer is ", ptr)
 	fmt.Println("value of pointer is ", *ptr)
 
 	*ptr = *ptr * 2

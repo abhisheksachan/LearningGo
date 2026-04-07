@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("Welcome to Slices")
 
 	var fruitList = []string{"Apple", "Orange", "Banana", "Grape"}
-	fmt.Printf("Tyoe of fruitlist is %T\n", fruitList)
+	fmt.Printf("Tyoe of fruit list is %v\n", fruitList)
 
 	fruitList = append(fruitList, "Mango", "Peach")
 	fmt.Println(fruitList)

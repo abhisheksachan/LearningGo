@@ -26,7 +26,7 @@ Track your progress by checking off each topic as you complete it.
 - [ ] `14loops/` — for loops, range loops, break/continue
 - [x] `15functions/` — Multiple return values, named returns, variadic args
 - [ ] `16closures/` — Anonymous functions, closures, functions as values
-- [ ] `17defer/` — `defer`, `panic`, `recover`, execution order
+- [x] `17defer/` — `defer`, `panic`, `recover`, execution order
 - [ ] `18errors/` — `error` interface, custom errors, `fmt.Errorf`, `errors.Is/As`
 - [ ] `19interfaces/` — Implicit implementation, empty interface, type assertions
 - [ ] `20type_switch/` — `switch x.(type)` pattern

@@ -23,9 +23,9 @@ Track your progress by checking off each topic as you complete it.
 
 ## Phase 1 — Core Language
 
-- [ ] `14loops/` — for loops, range loops, break/continue
+- [x] `14loops/` — for loops, range loops, break/continue
 - [x] `15functions/` — Multiple return values, named returns, variadic args
-- [ ] `16closures/` — Anonymous functions, closures, functions as values
+- [x] `16closures/` — Anonymous functions, closures, functions as values
 - [x] `17defer/` — `defer`, `panic`, `recover`, execution order
 - [ ] `18errors/` — `error` interface, custom errors, `fmt.Errorf`, `errors.Is/As`
 - [ ] `19interfaces/` — Implicit implementation, empty interface, type assertions
@@ -48,7 +48,7 @@ Track your progress by checking off each topic as you complete it.
 
 ## Phase 3 — Standard Library Essentials
 
-- [ ] `29file_io/` — `os`, `io`, `bufio` — reading and writing files
+- [x] `29file_io/` — `os`, `io`, `bufio` — reading and writing files
 - [ ] `30json/` — `encoding/json`, marshal/unmarshal, struct tags
 - [ ] `31http/` — `net/http`, building HTTP servers and clients
 - [ ] `32strings/` — `strings` and `strconv` packages

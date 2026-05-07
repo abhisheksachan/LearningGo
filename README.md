@@ -38,7 +38,7 @@ Track your progress by checking off each topic as you complete it.
 ## Phase 2 — Concurrency (Go's Superpower)
 
 - [ ] `23goroutines/` — `go` keyword, lightweight threads, data races
-- [ ] `24channels/` — Unbuffered vs buffered, range over channels, closing
+- [ ] `24channels/` — Unbuffered vs buffered, range over channels, closing, channel direction (`chan<-`, `<-chan`)
 - [ ] `25select/` — Multiplexing channels with `select`
 - [ ] `26sync/` — `WaitGroup`, `Mutex`, `RWMutex`
 - [ ] `27atomic/` — `sync/atomic` operations
@@ -49,41 +49,43 @@ Track your progress by checking off each topic as you complete it.
 ## Phase 3 — Standard Library Essentials
 
 - [x] `29file_io/` — `os`, `io`, `bufio` — reading and writing files
-- [ ] `30json/` — `encoding/json`, marshal/unmarshal, struct tags
-- [ ] `31http/` — `net/http`, building HTTP servers and clients
-- [ ] `32strings/` — `strings` and `strconv` packages
-- [ ] `33regexp/` — Regular expressions with `regexp` package
-- [ ] `34time_advanced/` — Timers, tickers, `time.After`, `time.Tick`
+- [ ] `30io_interfaces/` — `io.Reader`, `io.Writer`, `io.Closer` — composable I/O interfaces
+- [ ] `31json/` — `encoding/json`, marshal/unmarshal, struct tags
+- [x] `32http/` — `net/http`, `http.Handler`/`HandlerFunc` pattern, building servers and clients
+- [ ] `33strings/` — `strings` and `strconv` packages
+- [ ] `34regexp/` — Regular expressions with `regexp` package
+- [ ] `35time_advanced/` — Timers, tickers, `time.After`, `time.Tick`
+- [ ] `36slog/` — `log/slog`, structured logging, log levels, custom handlers
 
 ---
 
 ## Phase 4 — Modules & Tooling
 
-- [ ] `35modules/` — `go.mod`, `go.sum`, `go get`, `go tidy`, versioning
-- [ ] `36packages/` — Exported vs unexported, organizing multi-package projects
-- [ ] `37testing/` — `testing` package, `go test`, table-driven tests, benchmarks
-- [ ] `38linting/` — `go vet`, `golangci-lint`, code formatting with `gofmt`
-- [ ] `39build_tags/` — Conditional compilation with build constraints
+- [ ] `37modules/` — `go.mod`, `go.sum`, `go get`, `go tidy`, versioning
+- [ ] `38packages/` — Exported vs unexported, organizing multi-package projects
+- [ ] `39testing/` — `testing` package, `go test`, table-driven tests, benchmarks
+- [ ] `40linting/` — `go vet`, `golangci-lint`, code formatting with `gofmt`
+- [ ] `41build_tags/` — Conditional compilation with build constraints
 
 ---
 
 ## Phase 5 — Intermediate Patterns
 
-- [ ] `40generics/` — Type parameters, constraints (Go 1.18+)
-- [ ] `41functional_options/` — Idiomatic config/builder pattern
-- [ ] `42middleware/` — HTTP middleware chaining
-- [ ] `43worker_pool/` — Bounded concurrency with goroutines + channels
-- [ ] `44errgroup/` — `golang.org/x/sync/errgroup` for concurrent error handling
+- [ ] `42generics/` — Type parameters, constraints (Go 1.18+)
+- [ ] `43functional_options/` — Idiomatic config/builder pattern
+- [ ] `44middleware/` — HTTP middleware chaining
+- [ ] `45worker_pool/` — Bounded concurrency with goroutines + channels
+- [ ] `46errgroup/` — `golang.org/x/sync/errgroup` for concurrent error handling
 
 ---
 
 ## Phase 6 — Advanced Topics
 
-- [ ] `45reflection/` — `reflect` package, inspecting types at runtime
-- [ ] `46profiling/` — `pprof`, CPU and memory profiling, `go tool pprof`
-- [ ] `47database/` — `database/sql`, drivers, connection pooling
-- [ ] `48grpc/` — Protocol Buffers, gRPC server and client
-- [ ] `49unsafe/` — `unsafe` package, memory layout (when and why to avoid)
+- [ ] `47reflection/` — `reflect` package, inspecting types at runtime
+- [ ] `48profiling/` — `pprof`, CPU and memory profiling, `go tool pprof`
+- [ ] `49database/` — `database/sql`, drivers, connection pooling
+- [ ] `50grpc/` — Protocol Buffers, gRPC server and client
+- [ ] `51unsafe/` — `unsafe` package, memory layout (when and why to avoid)
 
 ---
 
@@ -94,3 +96,5 @@ Track your progress by checking off each topic as you complete it.
 - [Go by Example](https://gobyexample.com/)
 - [Go Standard Library Docs](https://pkg.go.dev/std)
 - [Go Playground](https://go.dev/play/)
+- [Go Blog](https://go.dev/blog/)
+- [Go Wiki](https://github.com/golang/go/wiki)
